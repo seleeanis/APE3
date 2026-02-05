@@ -34,7 +34,7 @@ public class APE3_U3 {
         mostrarMatriz(multiplicacion);
     }
 
-    // Llenar las matrices
+    // Llenar matrices
     public static void completarMatrices(int[][] A, int[][] B) {
         Scanner sc = new Scanner(System.in);
 
@@ -55,7 +55,7 @@ public class APE3_U3 {
         }
     }
 
-    // Mostrar cualquier matriz
+    // Mostrar matriz
     public static void mostrarMatriz(int[][] matriz) {
         for (int i = 0; i < FILAS; i++) {
             for (int j = 0; j < COLUMNAS; j++) {
@@ -88,7 +88,7 @@ public class APE3_U3 {
         return resultado;
     }
 
-    // Multiplicación elemento a elemento
+    // Multiplicación 
     public static int[][] multiplicacionMatriz(int[][] A, int[][] B) {
         int[][] resultado = new int[FILAS][COLUMNAS];
         for (int i = 0; i < FILAS; i++) {
